@@ -51,7 +51,7 @@
       <file leaf-file-name="tasks.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/tasks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="418" selection-end="418" vertical-scroll-proportion="0.4652778">
+            <state line="16" column="22" selection-start="416" selection-end="416" vertical-scroll-proportion="0.4652778">
               <folding />
             </state>
           </provider>
@@ -772,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/tasks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="418" selection-end="418" vertical-scroll-proportion="0.4652778">
+        <state line="16" column="22" selection-start="416" selection-end="416" vertical-scroll-proportion="0.4652778">
           <folding />
         </state>
       </provider>

@@ -10,6 +10,9 @@ ActiveAdmin.register Project do
 
 
 
+
+
+
   show :title => :title do
     panel "Tasks" do
       table_for project.tasks do |t|

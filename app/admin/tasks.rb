@@ -12,6 +12,13 @@ ActiveAdmin.register Task do
   end
 
 
+  index :download_links => false do
+    column :title
+    #column :is_done, { status_tag (task.is_done ? "Done" : "Pending"), (task.is_done ? :ok : :error) }
+    default_actions
+  end
+
+
   form do |f|
       f.inputs "Task Details" do
         f.input :project_id, :as => :select, :collection => Project.all

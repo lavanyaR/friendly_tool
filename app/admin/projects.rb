@@ -1,5 +1,5 @@
 ActiveAdmin.register Project do
-  index do
+  index :download_links => false do
     column :title do |project|
       link_to project.title, admin_project_path(project)
     end

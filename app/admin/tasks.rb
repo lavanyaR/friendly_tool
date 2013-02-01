@@ -14,9 +14,16 @@ ActiveAdmin.register Task do
 
   index :download_links => false do
     column :title
-    #column :is_done, { status_tag (task.is_done ? "Done" : "Pending"), (task.is_done ? :ok : :error) }
+    column  "Status", :sortable => :is_done do |task|
+       status_tag (task.is_done ? "Done" : "Pending"), (task.is_done ? :ok : :error)     end
     default_actions
   end
+
+  #filters
+
+  filter:project_id
+  filter:admin_user_id
+  filter:due_date
 
 
   form do |f|

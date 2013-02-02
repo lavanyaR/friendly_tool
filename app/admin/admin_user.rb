@@ -1,5 +1,5 @@
 ActiveAdmin.register AdminUser do     
-  index do                            
+  index :download_links => false do
     column :email                     
     column :current_sign_in_at
     column :last_sign_in_at
